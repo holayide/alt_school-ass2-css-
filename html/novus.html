@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/general.css" />
+    <title>Novus Watch</title>
+  </head>
+  <style>
+    body {
+      font-family: "Merriweather", serif;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      min-height: 100vh;
+      background-color: #a7a8cd;
+      padding: 0 2.4rem;
+    }
+
+    .wrapper__inner {
+      position: relative;
+    }
+
+    .card {
+      max-width: 450px;
+      display: inline-block;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .card__img {
+      height: 25vh;
+      border-radius: 8px;
+    }
+
+    .card__img img {
+      width: 100%;
+      height: 25vh;
+    }
+
+    .card__info {
+      background-color: white;
+      padding: 2rem;
+    }
+
+    .card__info h2 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+    }
+
+    .card__info h2 span {
+      color: #5c5c5c;
+      font-size: 1.3rem;
+    }
+
+    .card__info p {
+      margin-top: 1.5rem;
+      font-size: 1.6rem;
+      line-height: 1.3;
+      font-weight: 500;
+    }
+
+    .card > p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      padding: 0.8rem 2rem 0.8rem 1rem;
+      border-radius: 5px 20px 20px 5px;
+
+      background: #fdf1b5;
+      position: absolute;
+      top: 0.8rem;
+      left: -1.5rem;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__inner">
+        <div class="card">
+          <div class="card__img">
+            <img src="../assets/watch.jpg" alt="watch" />
+          </div>
+          <div class="card__info">
+            <h2>Novus Watch <span>Series IV</span></h2>
+            <p>
+              The pinnacle of fashion and tech. This wearable piece is an homage
+              to gilded palaces and minimal regalia, compact nouveau-deco and
+              brutalism influences in a compact, Swiss-made watch.
+            </p>
+          </div>
+          <p>New and Improved!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

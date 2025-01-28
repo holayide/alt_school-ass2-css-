@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary: #000;
+  --sec: #009966;
+  --accent: #ffbf00;
+  --background-pri: #fff;
+  --background-sec: #666666;
+}
+
+body {
+  font-family: "Lato", serif;
+}
+
+.tittle,
+.wealth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle {
+  background-color: var(--background-pri);
+  padding: 9.6rem 2.4rem 6.4rem;
+}
+
+.tittle__inner,
+.wealth__inner {
+  max-width: 80rem;
+  width: 100%;
+}
+
+.tittle__inner h2 {
+  color: var(--primary);
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 38.4px;
+}
+
+.tittle__inner p {
+  max-width: 415px;
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.tittle__inner p span {
+  color: var(--sec);
+  font-weight: 800;
+}
+
+.tittle__inner p:first-of-type {
+  margin: 4.8rem 0 1.6rem;
+}
+
+.wealth {
+  border-top: 8px solid #999999;
+  background-color: var(--background-sec);
+  padding: 7.2rem 0 6.6rem;
+}
+
+.wealth__inner {
+  background-color: var(--background-pri);
+  border-bottom: 8px solid #999999;
+  padding: 0 2.4rem 2.4rem;
+}
+
+.wealth__inner h2 {
+  display: inline-block;
+
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 28.8px;
+  padding: 1.6rem 3.2rem 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: -3.2rem;
+
+  background-color: var(--accent);
+  border-bottom: 8px solid #cc9900;
+}
+
+.wealth__inner p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.wealth__inner p:first-of-type {
+  margin: 2.4rem 0 1.6rem;
+}
