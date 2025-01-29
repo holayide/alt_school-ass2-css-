@@ -694,12 +694,12 @@ body {
   border-bottom: 1px solid #d6d6d6;
   padding-bottom: 1.6rem;
   user-select: none;
+}
 
-  div {
-    padding-top: 1.6rem;
-    font-size: 1.6rem;
-    line-height: 32px;
-  }
+.faq__wrapper details > div {
+  padding-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 32px;
 }
 
 .faq__wrapper details summary {
@@ -709,16 +709,6 @@ body {
   font-size: 2rem;
   user-select: none;
   cursor: pointer;
-
-  button {
-    border: none;
-    background-color: transparent;
-    font-size: 1.4rem;
-  }
-
-  .hide {
-    display: none;
-  }
 }
 
 .faq__wrapper button {
@@ -727,10 +717,15 @@ body {
   font-size: 1.4rem;
 }
 
+.faq__wrapper button.hide {
+  display: none;
+}
+
 .faq__wrapper details[open] summary {
   .show {
     display: none;
   }
+
   .hide {
     display: block;
   }
