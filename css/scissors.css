@@ -142,7 +142,6 @@ body {
 /* hero page */
 /********************************/
 .hero_section {
-  min-height: calc(90vh - 57px);
   padding: 10.6rem 1.6rem 0;
   background: linear-gradient(
     to right,
@@ -796,8 +795,13 @@ body {
 /* footer */
 /********************************/
 .footer {
-  margin-top: 9.5rem;
+  padding-top: 9.5rem;
+}
+
+.inner-footer {
   position: relative;
+
+  padding-bottom: 1px;
 }
 
 .footer__container {
@@ -807,7 +811,7 @@ body {
 }
 
 .socials {
-  margin-top: 3.2rem;
+  padding-top: 3.2rem;
   display: flex;
   gap: 2.4rem;
 
@@ -907,10 +911,6 @@ body {
     gap: 1.5rem;
   }
 
-  .hero_section {
-    padding-top: 3.6rem;
-  }
-
   .hero__header-text h1 {
     font-size: 4rem;
     line-height: 75px;
@@ -951,6 +951,11 @@ body {
 
   .price__card.price__card-2 h4 {
     margin-top: 3.4rem;
+    font-size: 4rem;
+  }
+
+  .price__card-2 ul li {
+    font-size: 1.4rem;
   }
 
   .price__card.price__card-2 p:first-of-type {
@@ -996,6 +1001,10 @@ body {
 
   .header-btn ul {
     gap: 1.5rem;
+  }
+
+  .hero_section {
+    padding-top: 7rem;
   }
 
   .header-menu {
@@ -1048,6 +1057,10 @@ body {
   .hero__btns {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .hero_section {
+    padding-top: 3.6rem;
   }
 
   .hero__btns .hero__btns-signup:link,
