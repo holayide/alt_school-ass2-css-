@@ -815,10 +815,10 @@ body {
   padding-top: 3.2rem;
   display: flex;
   gap: 2.4rem;
+}
 
-  a {
-    color: var(--pri-color);
-  }
+.socials a {
+  color: var(--pri-color);
 }
 
 .socials a i {
