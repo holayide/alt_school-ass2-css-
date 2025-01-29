@@ -721,6 +721,12 @@ body {
   }
 }
 
+.faq__wrapper button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+}
+
 .faq__wrapper details[open] summary {
   .show {
     display: none;
