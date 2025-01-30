@@ -55,6 +55,7 @@ body {
 }
 
 .wealth {
+  min-height: calc(100vh - 382px);
   border-top: 8px solid #999999;
   background-color: var(--background-sec);
   padding: 7.2rem 0 6.6rem;
